@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./CSS/base.css">
+    <title>お問い合わせ</title>
+</head>
+
+<body>
+    <h1 id="top1">お問い合わせ</h1>
+
+    <div>
+
+        <h2>ご入力内容</h2>
+
+        <form action="#" method="get">
+
+            <p>性別:
+                <label><input type="radio" name="seibetsu" value="female" checked />
+                    女性</label>
+                <label><input type="radio" name="seibetsu" value="male" />
+                    男性</label>
+            </p>
+
+            <p>
+                <label for="last-name">苗字:</label>
+                <input type="text" value="サイトツクリ" name="lastname" id="last-name" placeholder="姓" />
+
+                <label>
+                    名前:
+                    <input type="text" value="タロウ" name="firstname" />
+                </label>
+            </p>
+
+            <p id="requests">
+                <label for="requests">感想:</label>
+                <textarea id="kansou" accesskey="b" tabindex="1" name="kansou" rows="4" cols="54">特に感想がなければ泣きます。</textarea>
+            </p>
+
+            <p id="adress">
+                <label for="adress">メールアドレス（任意）:</label>
+                <input type="email" name="email" />
+            </p>
+
+            <p>
+                <input type="checkbox" value="privacy" name="agreement" id="agreement" checked />
+                <label for="agreement">プライバシーに同意する</label>
+                <a href="privacy.html">プライバシーポリシーの確認</a>
+            </p>
+          
+            <script>
+               function confirmFunction1() {
+                    confirm("データーを送信してもいいですか？");
+                }
+            </script>
+            
+            <p><button tabindex="2" accesskey="c" onclick="confirmFunction1()">送信</button></p>
+            
+            <p><a href="index.html">ホームに戻る</a></p>
+        </form>
+
+    </div>
+
+</body>
+</html>
