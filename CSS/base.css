@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+#top {
+    color: darkcyan;
+    font-size 2em;
+    text-align: center;
+}
+
+#top1 {
+    color: dimgray;
+    text-align: center;
+}
+
+#top2 {
+    color: darkcyan;
+    font-size 2em;
+    text-align: center;
+}
+
+#top3 {
+    color: cornsilk;
+    text-align: center;
+}
+
+h2{
+    color: dimgray;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+    text-decoration: none;
+}
+
+ul {
+    list-style: upper-roman;
+    text-decoration: none;
+}
+
+li {
+    font-size: 18px;
+}
+
+nav {
+    background-image: url(../img/piano-5267749_960_720.jpg)
+}
+
+
+input[type="submit"] {
+
+    border: 2px solid #e0ffff;
+    border-radius: 15px;
+
+    background: #32cd32;
+    color: #FFF;
+}
